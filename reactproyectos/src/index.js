@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SaludoPadre from './components/SaludoPadre';
+import Contador from './components/Contador';
 import PadreMatematicas from './components/PadreMatematicas';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreMatematicas />
+    <Contador />
   </React.StrictMode>
 );
 
